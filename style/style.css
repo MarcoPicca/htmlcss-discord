@@ -94,6 +94,15 @@ body{
     color: white;
 }
 
+.btn-footer{
+    height: 2rem;
+    padding: .5rem .5rem .7rem .5rem;
+    border-radius: 45px;
+    font-size: 13px;
+    background-color: #8ea1e1;
+    border: 1px solid #8ea1e1;
+}
+
 
 
 .font-small{
@@ -129,6 +138,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;  
+}
+
+.container-flag{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 2px;
+    color: white;
+    font-size: 13px;
+
+}
+
+.container-icon-footer{
+    margin-top: 20px;
+}
+
+.icon-footer{
+    margin-right: 15px;
 }
 
 .jumbo-container{
@@ -172,20 +199,21 @@ body{
 }
 
 .column-70{
-    background-color: #20b1a9 ;
     width: 70%;
     height: 500px;
 }
 
 .column-30{
-    background-color: #ef7f7f;
     height: 500px;
     width: 30%;
+    padding-right: 9rem;
+    padding-top: 3rem;
 }
 
 .column-quarters{
-    border: 2px dashed white;
+    color: white;
     width: calc(100% / 4);
+    padding-top: 3rem;
 }
 
 .h1-font{
@@ -198,15 +226,32 @@ body{
     font-weight: 800;
 }
 
+.h4-margin-left-right{
+    margin-left: .4rem;
+    margin-right: .4rem;
+}
+
+.h5-padding-top{
+    padding-top: 15px;
+}
+
+.h5-color{
+    color: white;
+}
+
 header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding: 0 0 .25rem;
 }
 
+.img-small{
+    height: 10px;
+    width: 15px;
+}
+
 section.navigation{
     padding: .8rem 0;
-    background-color: #3161e0;
 }
 
 
@@ -224,7 +269,11 @@ header section.navigation div.login{
 .logo{
     height: 2rem;
     width: 50%;
-    
+}
+
+.logo-footer{
+    height: 2rem;
+    max-width: 70%;
 }
 
 .subtitle{
@@ -259,6 +308,14 @@ section.navigation  nav ul{
     text-align: right;
 }
 
+.text-blue{
+    color: #738adc;
+}
+
+.text-white{
+    color: white;
+}
+
 .mar-right-nav{
     margin-right: 20px;
 }
@@ -269,6 +326,10 @@ section.navigation  nav ul{
 
 .margin-left{
     margin-left: 10rem;
+}
+
+.margin-top{
+    margin-top: 1rem;
 }
 
 section.navigation  nav ul li{
@@ -288,10 +349,6 @@ section#jumbo{
     padding: 3rem 0;
 }
 
-.text-white{
-    color: white;
-}
-
 div.jumbotron{
     height: 300px;
     color: white;
@@ -302,18 +359,13 @@ footer{
 }
 
 div.footer-divider{
-    background-color: white;
+    background-color: #3b4661;
     height: 1px;
-    width: 100%;
-    margin: 2rem 0;
+    width: 69%;
+    margin: 0 auto;
 }
 
 section.links{
     padding-top: .5rem;
 }
 
-div.button{
-    background-color: #feb5c0;
-    height: 2rem;
-    padding: .25rem .5rem;
-}
