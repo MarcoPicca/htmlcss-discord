@@ -17,6 +17,16 @@ body{
     border: 1px solid #3161e0;
 }
 
+.bg-img-item-1{
+    background-image: url(../img/item1.svg);
+    background-size: cover;
+}
+
+.bg-img-item-2{
+    background-image: url(../img/item2.svg);
+    background-size: cover;
+}
+
 .btn-jumbo-white{
     height: 45px;
     width: 30%;
@@ -79,6 +89,11 @@ body{
     
 }
 
+.par-width{
+    margin-top: 10px;
+    width: 70%;
+}
+
 /* .dotted-test{
     border: 2px dashed black;
 } */
@@ -92,12 +107,10 @@ body{
 }
 
 .column-big{
-    background-color: #1e8ffe;
     width: 60%;
 }
 
 .column-small{
-    background-color: #febfca;
     width: 40%;
 }
 
@@ -136,6 +149,11 @@ body{
 
 .h1-font{
     font-size: 55px;
+    font-weight: 800;
+}
+
+.h2-font{
+    font-size: 48px;
     font-weight: 800;
 }
 
@@ -190,6 +208,14 @@ section.navigation  nav ul{
 
 .t-align{
     text-align: center;
+}
+
+.t-align-left{
+    text-align: left;
+}
+
+.t-align-right{
+    text-align: right;
 }
 
 .mar-between{
