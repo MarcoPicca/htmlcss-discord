@@ -27,6 +27,11 @@ body{
     background-size: cover;
 }
 
+.bg-img-item-3{
+    background-image: url(../img/item3.svg);
+    background-size: cover;
+}
+
 .btn-jumbo-white{
     height: 45px;
     width: 30%;
@@ -45,6 +50,14 @@ body{
     border-radius: 45px;
     font-weight: 600;
     color: white;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: #d2d2d2;
 }
 
 .font-small{
@@ -104,7 +117,7 @@ body{
 
 .column{
     height: 400px;
-}
+    }
 
 .column-big{
     width: 60%;
@@ -112,6 +125,7 @@ body{
 
 .column-small{
     width: 40%;
+    padding-top: 40px;
 }
 
 .column-single{
@@ -135,16 +149,6 @@ body{
 .column-quarters{
     border: 2px dashed white;
     width: calc(100% / 4);
-}
-
-
-
-.bg-white{
-    background-color: white;
-}
-
-.bg-grey{
-    background-color: #d2d2d2;
 }
 
 .h1-font{
@@ -218,8 +222,12 @@ section.navigation  nav ul{
     text-align: right;
 }
 
-.mar-between{
+.mar-right-nav{
     margin-right: 20px;
+}
+
+.margin-right-column{
+    margin-right: 4rem;
 }
 
 section.navigation  nav ul li{
